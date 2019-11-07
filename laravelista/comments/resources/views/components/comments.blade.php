@@ -7,7 +7,7 @@
 @endphp
 
 @if($comments->count() < 1)
-    <div class="alert alert-warning">Ainda não há nenhuma observação.</div>
+    <div class="alert alert-light">Nenhuma observação.</div>
 @endif
 
 <ul class="list-unstyled">

@@ -39,7 +39,7 @@
             @endif
 
             <div class="form-group">
-                <label for="message">Digite sua observação:</label>
+                <label for="message">Escreva sua observação:</label>
                 <textarea class="form-control @if($errors->has('message')) is-invalid @endif" name="message" rows="3"></textarea>
                 <div class="invalid-feedback">
                     É necessário inserir uma mensagem.
